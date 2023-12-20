@@ -39,7 +39,7 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
-THRID_PARTY_APPS = ['django_countries']
+THRID_PARTY_APPS = ['django_countries', 'django_seed',]
 
 PROJECT_APPS = [
     'core.apps.CoreConfig', 
@@ -127,7 +127,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
@@ -138,6 +137,7 @@ AUTH_USER_MODEL = 'users.User'
 MEDIA_ROOT = BASE_DIR / "uploads"
 
 MEDIA_URL = "/media/"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
