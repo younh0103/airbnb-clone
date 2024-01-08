@@ -1,0 +1,22 @@
+{
+  "name": "airbnb-clone",
+  "version": "1.0.0",
+  "description": "Cloning Airbnb with Python, Django, Tailwind and more...<img src=\"https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png\" alt=\"Face with Monocle\" width=\"25\" height=\"25\" />",
+  "scripts": {
+    "css": "gulp"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.7",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
+  }
+}
