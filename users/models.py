@@ -52,7 +52,7 @@ class User(AbstractUser):
                                             {"secret": secret})
             send_mail("Verify Airbnb Account",
                       strip_tags(html_message),
-                      settings.DEFAULT_FROM_EMAIL,
+                      settings.EMAIL_FROM,
                       [self.email],
                       fail_silently=False,
                       html_message=html_message,)
